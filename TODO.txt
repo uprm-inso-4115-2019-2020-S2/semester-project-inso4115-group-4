@@ -1,0 +1,15 @@
+TODO: 
+create a form to register an event for future purposes when users are registered users.
+
+the form must include by default
+1.people hosting the event
+2.field for explisive permision code of the department pf events
+3. description field
+4.time and date field
+5.tag drop dow(so we can categorize the event
+
+the form is not limited to that, search for e general event form and add what its pertinent
+
+
+Recommended libraries:
+The application must be web-based (REST API). If its end-users are humans, it needs a front-end. The technology stack to use consists of Scala, Scala.js, Akka HTTP, Scalatest and possibly some additional libraries like jQuery, bootstrap, vue.js, ...
