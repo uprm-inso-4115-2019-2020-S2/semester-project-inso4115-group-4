@@ -5,16 +5,16 @@ body{
     background-color: #069044;
 }
 a{
-    color: #191919;
+    color: #d8d8d8;
     font-family: Helvetica;
     font-weight: 500;
-    font-size: xx-large;
+    font-size: 35px;
     text-decoration: none;
     position: absolute;
     text-align: center;
     left: 50%;
     top: 5%;
-    transform: translate(-50%);
+    transform: translate(-50%, -40%);
 }
 .box{
     width: 400px;

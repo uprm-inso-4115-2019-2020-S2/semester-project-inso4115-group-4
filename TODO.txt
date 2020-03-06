@@ -8,8 +8,4 @@ the form must include by default
 4.time and date field
 5.tag drop dow(so we can categorize the event
 
-the form is not limited to that, search for e general event form and add what its pertinent
-
-
-Recommended libraries:
-The application must be web-based (REST API). If its end-users are humans, it needs a front-end. The technology stack to use consists of Scala, Scala.js, Akka HTTP, Scalatest and possibly some additional libraries like jQuery, bootstrap, vue.js, ...
+Learn AngularJS
