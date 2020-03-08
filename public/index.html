@@ -8,15 +8,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="/styles.js"></script>
   </head>
   <body>
-  <header>
+  <header >
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
-        <li class="logo"><a href="rumhub.png">Rum Event Hub Logo</a></li>
+        <li class="logo"><a href="Images/header.png"  >Rum Event Hub Logo</a></li>
         <li><a href="locations.html">Locations</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="register/index.html">Register</a></li>
@@ -26,7 +27,10 @@
 
 <div class="container mt-3">
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs">
+  <div class="box">
+    <input type="search" id="search" placeholder="Search for an Event"  />
+</div>
+  <ul class="nav nav-tabs" margin-top= 50px>
     <li class="nav-item">
       <a class="nav-link active" data-toggle="tab" href="#home">Today's Events</a>
     </li>
@@ -37,21 +41,48 @@
       <a class="nav-link" data-toggle="tab" href="#menu2">Workshops</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu2">Fundraisers</a>
+      <a class="nav-link" data-toggle="tab" href="#menu3">Fundraisers</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu2">Entertainment</a>
+      <a class="nav-link" data-toggle="tab" href="#menu4">Entertainment</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#menu2">Sports</a>
+      <a class="nav-link" data-toggle="tab" href="#menu5">Sports</a>
     </li>
   </ul>
+<button  class = "button" >Create Event +</button>
 
   <!-- Tab panes -->
-  <div class="tab-content">
-    <div id="home" class="container tab-pane active"><br>
-      <h3>Today's Events</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <div class="tab-content"margin-right = 200px>
+    <div id="home" class="container tab-pane active" ><br>
+      <h3 >Today's Events</h3>
+      <p>
+        <div class="card bg-light mb-3" style="max-width: 50rem;">
+          <div class="card-header">Info. Session</div>
+          <div class="card-body">
+            <img style="float:left" width="200" height="80" src="Images/SHPE logo.png"alt=sheplogo >
+            <h5 class="card-title" >Place: Stefani 114 Time: 12:00PM-1:30PM</h5>
+            <p class="card-text">Here you will learn more about the different branches inside our association and different projects we have.</p>
+            <div class="card-footer text-black" >
+             Posted 2 days ago
+            </div>
+          </div>
+        </div>
+      </p>
+      <p>
+        <div class="card text-white bg-success mb-3" style="max-width: 50rem;">
+          <div class="card-header">Female Team Volleyball Game</div>
+          <div class="card-body">
+            <img style="float:left" width="100" height="80" src="Images/bulldoguprm.png"alt=bulldog >
+            <h5 class="card-title">Place: Mangual Building Time: 6:00PM-8:00PM</h5>
+            <p class="card-text">The Janes are going up agaisnt x%$& college. The series in 3-3 tonight is the final match! Go Janes!</p>
+            <div class="card-footer text-white" >
+             Posted 2 mins ago
+            </div>
+          </div>
+        </div>
+      </p>
+      
     </div>
     <div id="menu1" class="container tab-pane fade"><br>
       <h3>Menu 1</h3>
@@ -64,20 +95,6 @@
   </div>
 </div>
 
-  <div class="section">
-    <div>
-        <img src="rum-portico.jpg" alt="event1">
-        <figcaption></figcaption>
-    </div>
-    <div>
-        <img src="uprm coliseo.jpg" alt="event2">
-        <divcaption></divcaption>
-    </div>
-    <div>
-        <img src="uprmdanceteam.jpg" alt="event3">
-        <divcaption></divcaption>
-    </div>
-  </div>
   <footer>
     259 Blvd. Alfonso Valdés Cobián • 787-832-4040 • rumhubevents@upr.edu
   </footer>
