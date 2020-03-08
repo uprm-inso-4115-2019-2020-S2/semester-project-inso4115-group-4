@@ -5,12 +5,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
 /* HEADER */
-
 header {
   background-color: black;
-  
   background-image: url("header.png");
   background-size: 100%;
   background-position: center;
@@ -35,7 +32,6 @@ header .logo a {
   position: relative;
   text-indent: -9999999px;
   top: -30px;
-
   width: 200px;
 }
 
@@ -52,7 +48,7 @@ nav li {
 
 /* FEATURES */
 
-section {
+.section {
   background: white;
   color: gray;
   padding: 20px;
