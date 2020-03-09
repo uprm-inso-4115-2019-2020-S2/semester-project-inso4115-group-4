@@ -70,6 +70,12 @@ section div img {
   width: 200px;
 }
 
+#more{
+  display: none;
+}
+
+
+
 /* FOOTER */
 
 footer {
